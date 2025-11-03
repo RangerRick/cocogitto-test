@@ -9,18 +9,17 @@ feat = { changelog_title = "Features" }
 fix = { changelog_title = "Bug Fixes" }
 build = { changelog_title = "Build Updates" }
 perf = { changelog_title = "Performance Improvements" }
+docs = { changelog_title = "Documentation Updates" }
+style = { changelog_title = "Style Changes" }
 
 chore = { omit_from_changelog = true }
 ci = { omit_from_changelog = true }
-docs = { omit_from_changelog = true }
 refactor = { omit_from_changelog = true }
-style = { omit_from_changelog = true }
 test = { omit_from_changelog = true }
 
 # Changelog settings
 [changelog]
 path = "CHANGELOG.md"
-template = "simple"
 remote = "github.com"
 owner = "RangerRick"
 repository = "cocogitto-test"
